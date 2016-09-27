@@ -2,18 +2,9 @@
     package="com.zhenghaiqiang.mylibrary">
 
     <application
-        android:theme="@style/Theme.AppCompat"
         android:allowBackup="true"
         android:label="@string/app_name"
         android:supportsRtl="true">
-
-        <activity android:name="com.zhenghaiqiang.subproject1.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>
